@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  test:
+  test: 
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -36,6 +36,7 @@ jobs:
           pipenv run test -v
           
   deploy:
+    needs: test
     runs-on: ubuntu-latest
     strategy:
       matrix:

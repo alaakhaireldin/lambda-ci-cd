@@ -15,6 +15,16 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.wheelhouses/
+.tox/
+.vscode/
+Pipfile
+Pipfile.lock
+
 
 # Serverless directories
 .serverless

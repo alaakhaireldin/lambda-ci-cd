@@ -1,1 +1,5 @@
 pyjokes
+-i https://pypi.org/simple
+pytest-mock==1.10.3
+pytest-watch==4.2.0
+pytest==4.4.0

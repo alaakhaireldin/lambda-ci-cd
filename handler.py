@@ -6,6 +6,8 @@ def get_joke(event, context):
     body = {
         "message": "Greetings from Github. Your function is deployed by a Github Actions. Enjoy your joke",
         "joke":pyjokes.get_joke()
+        "event": event
+        "context": context
     }
 
     response = {
